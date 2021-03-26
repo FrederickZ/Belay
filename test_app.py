@@ -13,4 +13,4 @@ def test_static_html(client):
     """
     response = client.get('/')
     assert response.status == "200 OK"
-    assert b'<title>Single-Page Login and Post</title>' in response.data
+    assert b'<title>Belay</title>' in response.data
